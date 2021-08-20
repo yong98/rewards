@@ -1,5 +1,9 @@
-C:\Projects\rewards\src\main\java\microservices\rewards\domain\RewardsCalculator.java
-C:\Projects\rewards\src\main\java\microservices\rewards\service\IRewardsCalculationService.java
-C:\Projects\rewards\src\main\java\microservices\rewards\RewardsApplication.java
-C:\Projects\rewards\src\main\java\microservices\rewards\service\RewardsCalculationServiceImpl.java
-C:\Projects\rewards\src\main\java\microservices\rewards\controller\RewardsCalculationControoler.java
+/home/me/git/rewards/src/main/java/microservices/rewards/service/IRewardsCalculationService.java
+/home/me/git/rewards/src/main/java/microservices/rewards/service/IOrderService.java
+/home/me/git/rewards/src/main/java/microservices/rewards/domain/RewardsCalculator.java
+/home/me/git/rewards/src/main/java/microservices/rewards/service/OrderServiceImpl.java
+/home/me/git/rewards/src/main/java/microservices/rewards/RewardsApplication.java
+/home/me/git/rewards/src/main/java/microservices/rewards/controller/RewardsCalculationControoler.java
+/home/me/git/rewards/src/main/java/microservices/rewards/domain/Order.java
+/home/me/git/rewards/src/main/java/microservices/rewards/service/RewardsCalculationServiceImpl.java
+/home/me/git/rewards/src/main/java/microservices/rewards/repository/IOrderRepository.java

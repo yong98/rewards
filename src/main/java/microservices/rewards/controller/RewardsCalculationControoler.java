@@ -4,6 +4,7 @@ import java.time.LocalDateTime;
 import java.time.ZoneOffset;
 import java.util.Date;
 import java.util.List;
+import java.util.stream.Collectors;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -38,13 +39,13 @@ public class RewardsCalculationControoler {
 	}
 
 	@GetMapping("")
-	Object[] calculateRewardsForOrders(@RequestParam("month") Integer month) {
+	List<RewardsCalculator> calculateRewardsForOrders(@RequestParam("month") Integer month) {
 		log.info("calculate rewards for orders in " + month + " months");
 		if (null != month) {
 			List<Order> orders = this.orderService.getOrdersForPeriod(Date.from(LocalDateTime.now().minusMonths(month).toInstant(ZoneOffset.UTC)), 
 				Date.from(LocalDateTime.now().toInstant(ZoneOffset.UTC)));
 			if (null != orders)
-				return orders.stream().map(order -> rewardService.calculateRewards(order.getPrice())).toArray();
+				return orders.stream().map(order -> rewardService.calculateRewards(order.getPrice())).collect(Collectors.toList());
 		}
 		return null;
 	}

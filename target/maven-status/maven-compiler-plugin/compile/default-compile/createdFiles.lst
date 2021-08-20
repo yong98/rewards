@@ -1,1 +1,9 @@
-microservices\rewards\controller\RewardsCalculationControoler.class
+microservices/rewards/service/IRewardsCalculationService.class
+microservices/rewards/service/IOrderService.class
+microservices/rewards/controller/RewardsCalculationControoler.class
+microservices/rewards/domain/RewardsCalculator.class
+microservices/rewards/repository/IOrderRepository.class
+microservices/rewards/RewardsApplication.class
+microservices/rewards/service/OrderServiceImpl.class
+microservices/rewards/domain/Order.class
+microservices/rewards/service/RewardsCalculationServiceImpl.class

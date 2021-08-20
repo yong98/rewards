@@ -1,0 +1,4 @@
+microservices/rewards/RewardsApplicationTests.class
+microservices/rewards/service/RewardsCalculationServiceImplTest.class
+microservices/rewards/domain/RewardsCalculatorTest.class
+microservices/rewards/service/OrderServiceImplTest.class
