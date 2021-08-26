@@ -26,3 +26,9 @@ http://localhost:8080/rewards?month=3
 		rewards: 50
 	}
 ]
+
+build docker image:
+docker build -t spring-boot-docker .
+
+run in docker:
+docker run -p 8090:8080 spring-boot-docker
